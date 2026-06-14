@@ -97,7 +97,7 @@ export const PredictionPage = forwardRef<HTMLDivElement>((_, ref) => {
     };
 
     try {
-      const response = await fetch("https://supplychain-ai-engine-production.up.railway.app//predict", {
+     const response = await fetch("https://supplychain-ai-engine-production.up.railway.app/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
